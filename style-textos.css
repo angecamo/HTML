@@ -1,0 +1,105 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: cadetblue;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: underline;
+    margin-top: 0;
+}
+header{
+    background-color: rgb(red, green, blue);
+    height: 2vh;
+    width: 100vw;
+}
+img{
+    width: 50%;
+    height: auto;
+}
+.sec1{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.sec1 h2{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.sec1 p{
+    text-transform: lowercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+body{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.sec1 img{
+    display: block;
+    margin: 0 auto;
+}
+#subtitulo{
+    color: rgb(red, green, blue);
+}
+.subtitulo{
+    color: red;
+}
+/*defino las variables base*/
+:root{
+    font-size: 10px;
+    --primary-color: #eec0ee00;
+    --tamaño-fuente: 10px;
+}
+.btn{
+    display: block;
+    width: 20vw;
+    height: 10vh;
+    border: 0;
+    border-radius: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+
+}
+.btn-container{
+    padding: 1vh;
+    text-align: center;
+}
+
+.menu {
+    background-color: aqua;
+}
+.menu ul {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    height: 8vh;
+    width: 20vw;
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 2vh;
+    border-radius: 10%;
+}
+.menu li a{
+    text-decoration: none;
+    
+}
+.item:hover{
+    background-color: aquamarine;
+}
+.item a:visited,:active{
+    color: #008000;
+}
