@@ -103,3 +103,21 @@ body{
 .item a:visited,:active{
     color: #008000;
 }
+/*selectores hijo*/
+p > strong{
+    color: red;
+}
+#sec_3 h3 + p {
+    font-size: 3rm;
+}
+/*selectores de atributo*/
+a[href="https"]{
+    color: blue;
+}
+/*Pseudoclase*/
+h5:first-child{
+    color: blue;
+}
+h5:last-child{
+    color: aqua;
+}
